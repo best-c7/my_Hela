@@ -1,0 +1,20 @@
+﻿{
+    "schema":  "hela-launcher-process-status/v1",
+    "cleanup_started_utc":  "2026-11-25T15:35:27.5981447Z",
+    "game":  {
+                 "process_id":  25228,
+                 "started_utc":  "2026-11-25T15:33:46.5278577Z",
+                 "exited_before_cleanup":  false,
+                 "exit_code_before_cleanup":  null,
+                 "shutdown_requested_by_launcher":  true,
+                 "force_terminated_by_launcher":  true,
+                 "exited_after_cleanup":  true,
+                 "exit_code_after_cleanup":  -1
+             },
+    "monitor":  {
+                    "process_id":  26300,
+                    "started_utc":  "2026-11-25T15:33:45.8873988Z",
+                    "exited_before_cleanup":  true
+                },
+    "completed_utc":  "2026-11-25T15:35:32.8038475Z"
+}

@@ -1,0 +1,3603 @@
+{
+  "schema": "hela.live_frame_monitor",
+  "schema_version": "1.2.0",
+  "run_identity": {
+    "test_version": "profile14-menu-3graphics-20261125",
+    "manifest_path": "D:\\Plugin_ChatGpt\\GHIDRA MCP\\Hela-Export\\Repositories\\Hela_test\\Hela_AI_20261109_1045\\evidence\\GTX_1050TI\\runs\\20261125\\profile14-menu-3graphics-20261125-153344942\\run-manifest.json",
+    "expected_modules": {
+      "d3d12": "db2fb291de2453754b8e375ac3e67a5e6f9b2dc577738e191cf2123b02c26045",
+      "dxgi": "edd099d49c4b669c05e1fd46f4af0e251cbee7065a9d596aa93c6d4fafca4aad"
+    },
+    "observed_modules": {
+      "d3d12": "db2fb291de2453754b8e375ac3e67a5e6f9b2dc577738e191cf2123b02c26045",
+      "dxgi": "edd099d49c4b669c05e1fd46f4af0e251cbee7065a9d596aa93c6d4fafca4aad"
+    },
+    "module_fingerprint_observations": {
+      "d3d12": [
+        "db2fb291de2453754b8e375ac3e67a5e6f9b2dc577738e191cf2123b02c26045"
+      ],
+      "dxgi": [
+        "edd099d49c4b669c05e1fd46f4af0e251cbee7065a9d596aa93c6d4fafca4aad"
+      ]
+    },
+    "module_fingerprint_failures": {},
+    "attestation_status": "verified"
+  },
+  "monitor_metadata": {
+    "log_path": "D:\\SteamLibrary\\steamapps\\common\\Hela Demo\\Hela\\Binaries\\Win64\\d3d12on11.log",
+    "generation": 1,
+    "truncation_count": 0,
+    "lines_processed_in_generation": 152345,
+    "capture_present": 1500
+  },
+  "capture_target": {
+    "present": 1500,
+    "complete": true,
+    "source_readback": {
+      "kind": "source",
+      "present": 1500,
+      "line_no": 149770,
+      "source": "000001E1F63C3738",
+      "dimension": 3,
+      "width": 1280,
+      "height": 720,
+      "format": 24,
+      "sequence": 1500,
+      "buffer": 0,
+      "sample_pixels_rgba": [
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ]
+      ],
+      "non_black_count": 0,
+      "total_sampled": 100,
+      "non_black_pct": 0.0,
+      "has_explicit_summary": true,
+      "emitted_complete_event": true
+    },
+    "backbuffer_readback": {
+      "kind": "backbuffer",
+      "present": 1500,
+      "line_no": 149779,
+      "source": null,
+      "dimension": null,
+      "width": 1280,
+      "height": 720,
+      "format": 24,
+      "sequence": null,
+      "buffer": 0,
+      "sample_pixels_rgba": [
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ]
+      ],
+      "non_black_count": 0,
+      "total_sampled": 100,
+      "non_black_pct": 0.0,
+      "has_explicit_summary": true,
+      "emitted_complete_event": true
+    }
+  },
+  "present_100": {
+    "source_readback": {
+      "kind": "source",
+      "present": 100,
+      "line_no": 12484,
+      "source": "000001E1F601F478",
+      "dimension": 3,
+      "width": 1280,
+      "height": 720,
+      "format": 24,
+      "sequence": 100,
+      "buffer": 0,
+      "sample_pixels_rgba": [
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          254,
+          254,
+          252,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ]
+      ],
+      "non_black_count": 11,
+      "total_sampled": 100,
+      "non_black_pct": 11.0,
+      "has_explicit_summary": true,
+      "emitted_complete_event": true
+    },
+    "backbuffer_readback": {
+      "kind": "backbuffer",
+      "present": 100,
+      "line_no": 12493,
+      "source": null,
+      "dimension": null,
+      "width": 1280,
+      "height": 720,
+      "format": 24,
+      "sequence": null,
+      "buffer": 0,
+      "sample_pixels_rgba": [
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          254,
+          254,
+          252,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ]
+      ],
+      "non_black_count": 11,
+      "total_sampled": 100,
+      "non_black_pct": 11.0,
+      "has_explicit_summary": true,
+      "emitted_complete_event": true
+    },
+    "matched_source_history": {
+      "resource": "000001E1F601F478",
+      "operations": 643,
+      "draws": 643,
+      "skipped": 0,
+      "clears": 0,
+      "line_no": 149444,
+      "unique_vs": [
+        "20e0826b236597a1"
+      ],
+      "unique_ps": [
+        "44b0a992c2304254"
+      ],
+      "unique_viewports": [
+        "1280x720"
+      ],
+      "retained_draw_count": 20,
+      "retained_draws": [
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149553
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149554
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149555
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149556
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149557
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149558
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149559
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149560
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149561
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149562
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149563
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149564
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149565
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149566
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149567
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149568
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149569
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149570
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149571
+        },
+        {
+          "draw_type": "DrawIndexedInstanced",
+          "vs": "20e0826b236597a1",
+          "ps": "44b0a992c2304254",
+          "elements": 6,
+          "instances": 1,
+          "rtv_slot": 0,
+          "viewport": "1280x720",
+          "line_no": 149572
+        }
+      ]
+    },
+    "all_source_histories": {
+      "000001E1F601BD38": {
+        "resource": "000001E1F601BD38",
+        "operations": 643,
+        "draws": 643,
+        "skipped": 0,
+        "clears": 0,
+        "line_no": 149314,
+        "unique_vs": [
+          "20e0826b236597a1"
+        ],
+        "unique_ps": [
+          "44b0a992c2304254"
+        ],
+        "unique_viewports": [
+          "1280x720"
+        ],
+        "retained_draw_count": 20,
+        "retained_draws": [
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149423
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149424
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149425
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149426
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149427
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149428
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149429
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149430
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149431
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149432
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149433
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149434
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149435
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149436
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149437
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149438
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149439
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149440
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149441
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149442
+          }
+        ]
+      },
+      "000001E1F601F478": {
+        "resource": "000001E1F601F478",
+        "operations": 643,
+        "draws": 643,
+        "skipped": 0,
+        "clears": 0,
+        "line_no": 149444,
+        "unique_vs": [
+          "20e0826b236597a1"
+        ],
+        "unique_ps": [
+          "44b0a992c2304254"
+        ],
+        "unique_viewports": [
+          "1280x720"
+        ],
+        "retained_draw_count": 20,
+        "retained_draws": [
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149553
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149554
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149555
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149556
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149557
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149558
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149559
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149560
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149561
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149562
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149563
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149564
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149565
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149566
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149567
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149568
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149569
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149570
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149571
+          },
+          {
+            "draw_type": "DrawIndexedInstanced",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": 6,
+            "instances": 1,
+            "rtv_slot": 0,
+            "viewport": "1280x720",
+            "line_no": 149572
+          }
+        ]
+      },
+      "000001E1F63C3738": {
+        "resource": "000001E1F63C3738",
+        "operations": 642,
+        "draws": 642,
+        "skipped": 0,
+        "clears": 0,
+        "line_no": 149574,
+        "unique_vs": [
+          "20e0826b236597a1"
+        ],
+        "unique_ps": [
+          "44b0a992c2304254"
+        ],
+        "unique_viewports": [],
+        "retained_draw_count": 20,
+        "retained_draws": [
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149749
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149750
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149751
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149752
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149753
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149754
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149755
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149756
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149757
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149758
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149759
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149760
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149761
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149762
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149763
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149764
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149765
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149766
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149767
+          },
+          {
+            "draw_type": "draw",
+            "vs": "20e0826b236597a1",
+            "ps": "44b0a992c2304254",
+            "elements": null,
+            "instances": null,
+            "rtv_slot": null,
+            "viewport": null,
+            "line_no": 149768
+          }
+        ]
+      }
+    },
+    "copy_to_bb_seq100": {
+      "line_no": 12205,
+      "source": "000001E1F6013F90",
+      "sequence": 100,
+      "dimension": 3,
+      "width": 1280,
+      "height": 720,
+      "format": 24
+    },
+    "copy_to_bb_recent": [
+      {
+        "line_no": 151153,
+        "source": "000001E1F6014150",
+        "sequence": 1518,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151228,
+        "source": "000001E1F6013F90",
+        "sequence": 1519,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151304,
+        "source": "000001E1F6014D90",
+        "sequence": 1520,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151380,
+        "source": "000001E1F6014150",
+        "sequence": 1521,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151456,
+        "source": "000001E1F6013F90",
+        "sequence": 1522,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151533,
+        "source": "000001E1F6014D90",
+        "sequence": 1523,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151612,
+        "source": "000001E1F6014150",
+        "sequence": 1524,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151688,
+        "source": "000001E1F6013F90",
+        "sequence": 1525,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151766,
+        "source": "000001E1F6014D90",
+        "sequence": 1526,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151843,
+        "source": "000001E1F6014150",
+        "sequence": 1527,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151920,
+        "source": "000001E1F6013F90",
+        "sequence": 1528,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 151998,
+        "source": "000001E1F6014D90",
+        "sequence": 1529,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 152075,
+        "source": "000001E1F6014150",
+        "sequence": 1530,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 152164,
+        "source": "000001E1F6013F90",
+        "sequence": 1531,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 152216,
+        "source": "000001E1F6014D90",
+        "sequence": 1532,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      },
+      {
+        "line_no": 152294,
+        "source": "000001E1F6014150",
+        "sequence": 1533,
+        "dimension": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 24
+      }
+    ]
+  },
+  "shaders": {
+    "target_graphics_hashes_in_history": {
+      "vs": [
+        "20e0826b236597a1"
+      ],
+      "ps": [
+        "44b0a992c2304254"
+      ]
+    },
+    "ready_unique_count": 15,
+    "ready_total_events": 15,
+    "ready": {
+      "a7f30e5d1d5fc6fb": {
+        "shader_hash": "a7f30e5d1d5fc6fb",
+        "status": "READY",
+        "stage": "VS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1375
+      },
+      "4ce363172cfd70be": {
+        "shader_hash": "4ce363172cfd70be",
+        "status": "READY",
+        "stage": "VS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1383
+      },
+      "c71574a8f462e2c1": {
+        "shader_hash": "c71574a8f462e2c1",
+        "status": "READY",
+        "stage": "CS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1465
+      },
+      "bb592abf5ce2bad1": {
+        "shader_hash": "bb592abf5ce2bad1",
+        "status": "READY",
+        "stage": "CS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1479
+      },
+      "f79b80f0f2f58f68": {
+        "shader_hash": "f79b80f0f2f58f68",
+        "status": "READY",
+        "stage": "PS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1483
+      },
+      "5e8318486d1b2a98": {
+        "shader_hash": "5e8318486d1b2a98",
+        "status": "READY",
+        "stage": "CS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1498
+      },
+      "4c1bc8bf7e457acd": {
+        "shader_hash": "4c1bc8bf7e457acd",
+        "status": "READY",
+        "stage": "PS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1500
+      },
+      "93b26414978e1b13": {
+        "shader_hash": "93b26414978e1b13",
+        "status": "READY",
+        "stage": "VS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1542
+      },
+      "974fdc4fc0b0102c": {
+        "shader_hash": "974fdc4fc0b0102c",
+        "status": "READY",
+        "stage": "PS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1661
+      },
+      "20e0826b236597a1": {
+        "shader_hash": "20e0826b236597a1",
+        "status": "READY",
+        "stage": "VS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1671
+      },
+      "df79d6ce6e6eaa48": {
+        "shader_hash": "df79d6ce6e6eaa48",
+        "status": "READY",
+        "stage": "CS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1680
+      },
+      "d77600bde0076c33": {
+        "shader_hash": "d77600bde0076c33",
+        "status": "READY",
+        "stage": "PS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 1682
+      },
+      "25e657206d761172": {
+        "shader_hash": "25e657206d761172",
+        "status": "READY",
+        "stage": "VS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 2416
+      },
+      "44b0a992c2304254": {
+        "shader_hash": "44b0a992c2304254",
+        "status": "READY",
+        "stage": "PS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 4208
+      },
+      "74867736557b00e8": {
+        "shader_hash": "74867736557b00e8",
+        "status": "READY",
+        "stage": "CS",
+        "reason": null,
+        "occurrences": 1,
+        "first_line": 26356
+      }
+    },
+    "placeholder_unique_count": 256,
+    "placeholder_total_events": 5643,
+    "placeholders": {
+      "cab0b356d868415e": {
+        "shader_hash": "cab0b356d868415e",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134875
+      },
+      "2474139ca9b08618": {
+        "shader_hash": "2474139ca9b08618",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134878
+      },
+      "0fed5fc1b03f262a": {
+        "shader_hash": "0fed5fc1b03f262a",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134882
+      },
+      "e371acab558c9c2a": {
+        "shader_hash": "e371acab558c9c2a",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134884
+      },
+      "e83c091eb64a73c9": {
+        "shader_hash": "e83c091eb64a73c9",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134937
+      },
+      "d89290045711595e": {
+        "shader_hash": "d89290045711595e",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134978
+      },
+      "5cf460bf9d3273eb": {
+        "shader_hash": "5cf460bf9d3273eb",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134981
+      },
+      "93c711754d14b4d8": {
+        "shader_hash": "93c711754d14b4d8",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134984
+      },
+      "f345a475bc830023": {
+        "shader_hash": "f345a475bc830023",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134986
+      },
+      "b056550988124b40": {
+        "shader_hash": "b056550988124b40",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134989
+      },
+      "08aba3106e361938": {
+        "shader_hash": "08aba3106e361938",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134993
+      },
+      "783656852398fb72": {
+        "shader_hash": "783656852398fb72",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 134997
+      },
+      "a09383934f78936d": {
+        "shader_hash": "a09383934f78936d",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135000
+      },
+      "583eace0e1ff780b": {
+        "shader_hash": "583eace0e1ff780b",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135003
+      },
+      "a2459a4a7ea332b5": {
+        "shader_hash": "a2459a4a7ea332b5",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135007
+      },
+      "e10ff0c206ae4d39": {
+        "shader_hash": "e10ff0c206ae4d39",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135009
+      },
+      "6c7e1425d0035fea": {
+        "shader_hash": "6c7e1425d0035fea",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135012
+      },
+      "9df7376973814321": {
+        "shader_hash": "9df7376973814321",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135015
+      },
+      "b57b044125a5a51a": {
+        "shader_hash": "b57b044125a5a51a",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135018
+      },
+      "4c9481761bcd43f1": {
+        "shader_hash": "4c9481761bcd43f1",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135022
+      },
+      "f1ac27cd22a07cec": {
+        "shader_hash": "f1ac27cd22a07cec",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135024
+      },
+      "dff5b5be16400495": {
+        "shader_hash": "dff5b5be16400495",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135037
+      },
+      "587ababc6758faa8": {
+        "shader_hash": "587ababc6758faa8",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135039
+      },
+      "efd840aa26a32759": {
+        "shader_hash": "efd840aa26a32759",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135043
+      },
+      "dd817b7dcaef22f4": {
+        "shader_hash": "dd817b7dcaef22f4",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135045
+      },
+      "a14d41a98f72039b": {
+        "shader_hash": "a14d41a98f72039b",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135049
+      },
+      "00bf9068000bd684": {
+        "shader_hash": "00bf9068000bd684",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135052
+      },
+      "835bc5c2d5ba79ad": {
+        "shader_hash": "835bc5c2d5ba79ad",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135054
+      },
+      "02fe63f14ad6dec2": {
+        "shader_hash": "02fe63f14ad6dec2",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135058
+      },
+      "63fc0cb047aa3ddb": {
+        "shader_hash": "63fc0cb047aa3ddb",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135062
+      },
+      "8f6799c2bf02c633": {
+        "shader_hash": "8f6799c2bf02c633",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135065
+      },
+      "4746981d63741ec4": {
+        "shader_hash": "4746981d63741ec4",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135068
+      },
+      "cb5b1bbc038c9e0c": {
+        "shader_hash": "cb5b1bbc038c9e0c",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135071
+      },
+      "a67ce9f96e4b9214": {
+        "shader_hash": "a67ce9f96e4b9214",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135074
+      },
+      "f7177e20954c0e3b": {
+        "shader_hash": "f7177e20954c0e3b",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135076
+      },
+      "e26bde91b74485cb": {
+        "shader_hash": "e26bde91b74485cb",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135080
+      },
+      "edaf91e9e819edba": {
+        "shader_hash": "edaf91e9e819edba",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135082
+      },
+      "c38d2c003f1f549a": {
+        "shader_hash": "c38d2c003f1f549a",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135084
+      },
+      "d9ddc461ea40b998": {
+        "shader_hash": "d9ddc461ea40b998",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135087
+      },
+      "a28af1e86c856b5a": {
+        "shader_hash": "a28af1e86c856b5a",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135091
+      },
+      "8e1360fb5cb93e02": {
+        "shader_hash": "8e1360fb5cb93e02",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135093
+      },
+      "ea2bc8873212076b": {
+        "shader_hash": "ea2bc8873212076b",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135096
+      },
+      "c5ad2d793420b4d2": {
+        "shader_hash": "c5ad2d793420b4d2",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135140
+      },
+      "d7ad28427cf24c13": {
+        "shader_hash": "d7ad28427cf24c13",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135144
+      },
+      "6a71e12004f675e6": {
+        "shader_hash": "6a71e12004f675e6",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135164
+      },
+      "bec873b3215b927a": {
+        "shader_hash": "bec873b3215b927a",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135188
+      },
+      "c9c4a6762cc42c3c": {
+        "shader_hash": "c9c4a6762cc42c3c",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135191
+      },
+      "9a2bab34b95d844d": {
+        "shader_hash": "9a2bab34b95d844d",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135200
+      },
+      "e32c33fdc7191f47": {
+        "shader_hash": "e32c33fdc7191f47",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135202
+      },
+      "d864f8fde24a01f9": {
+        "shader_hash": "d864f8fde24a01f9",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135205
+      },
+      "c1e16afd30100a82": {
+        "shader_hash": "c1e16afd30100a82",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135208
+      },
+      "27004c2e1e62518f": {
+        "shader_hash": "27004c2e1e62518f",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135212
+      },
+      "f99399db61586540": {
+        "shader_hash": "f99399db61586540",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135214
+      },
+      "29048ade891c9665": {
+        "shader_hash": "29048ade891c9665",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135217
+      },
+      "0e2d0f724f72f61b": {
+        "shader_hash": "0e2d0f724f72f61b",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135230
+      },
+      "378f41719d9c68f4": {
+        "shader_hash": "378f41719d9c68f4",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135232
+      },
+      "51ec7d393506c0ed": {
+        "shader_hash": "51ec7d393506c0ed",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135236
+      },
+      "18bc6a29fc1a6e4f": {
+        "shader_hash": "18bc6a29fc1a6e4f",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135238
+      },
+      "0484d89acaef1630": {
+        "shader_hash": "0484d89acaef1630",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135241
+      },
+      "7e20239ede175b83": {
+        "shader_hash": "7e20239ede175b83",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135244
+      },
+      "d59a1f942dd3c545": {
+        "shader_hash": "d59a1f942dd3c545",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135247
+      },
+      "3e3b4c378cfef607": {
+        "shader_hash": "3e3b4c378cfef607",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135251
+      },
+      "a9c9747484e8052b": {
+        "shader_hash": "a9c9747484e8052b",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135254
+      },
+      "950fd966e2decb5f": {
+        "shader_hash": "950fd966e2decb5f",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135258
+      },
+      "b69803068e452b21": {
+        "shader_hash": "b69803068e452b21",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135261
+      },
+      "153d242ed47409d5": {
+        "shader_hash": "153d242ed47409d5",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135263
+      },
+      "e1d071721ffa698d": {
+        "shader_hash": "e1d071721ffa698d",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135266
+      },
+      "27f4eb0dacd054bf": {
+        "shader_hash": "27f4eb0dacd054bf",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135269
+      },
+      "548c569323e5c254": {
+        "shader_hash": "548c569323e5c254",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135271
+      },
+      "9ea0c0d8b507d549": {
+        "shader_hash": "9ea0c0d8b507d549",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135274
+      },
+      "0f8b101f89447f45": {
+        "shader_hash": "0f8b101f89447f45",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135277
+      },
+      "4ad0e69307b882b3": {
+        "shader_hash": "4ad0e69307b882b3",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135281
+      },
+      "25d5a54741fec315": {
+        "shader_hash": "25d5a54741fec315",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135363
+      },
+      "db8631048fb1f633": {
+        "shader_hash": "db8631048fb1f633",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135365
+      },
+      "1ffaf9eb058be560": {
+        "shader_hash": "1ffaf9eb058be560",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135647
+      },
+      "93b42e525646cdbd": {
+        "shader_hash": "93b42e525646cdbd",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135669
+      },
+      "1155f40797035745": {
+        "shader_hash": "1155f40797035745",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135673
+      },
+      "2f97798cbd0998f6": {
+        "shader_hash": "2f97798cbd0998f6",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135677
+      },
+      "f71686e8471131a0": {
+        "shader_hash": "f71686e8471131a0",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135679
+      },
+      "859e85b0b4aadd4b": {
+        "shader_hash": "859e85b0b4aadd4b",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135682
+      },
+      "7bdba92bad8476bd": {
+        "shader_hash": "7bdba92bad8476bd",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135685
+      },
+      "7bc1763b7c99ee0e": {
+        "shader_hash": "7bc1763b7c99ee0e",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135688
+      },
+      "5e54a24dfb6f62ba": {
+        "shader_hash": "5e54a24dfb6f62ba",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135691
+      },
+      "3e8bfb6045c94af7": {
+        "shader_hash": "3e8bfb6045c94af7",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135749
+      },
+      "873c36a02aa18588": {
+        "shader_hash": "873c36a02aa18588",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135753
+      },
+      "93b71e1cf83c3349": {
+        "shader_hash": "93b71e1cf83c3349",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135768
+      },
+      "97d33aaed44c9630": {
+        "shader_hash": "97d33aaed44c9630",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135776
+      },
+      "7cedc9dea07f9499": {
+        "shader_hash": "7cedc9dea07f9499",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135785
+      },
+      "b8360dc7fcca5a2a": {
+        "shader_hash": "b8360dc7fcca5a2a",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135787
+      },
+      "987d533864454255": {
+        "shader_hash": "987d533864454255",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135791
+      },
+      "c423e656ea4d37b3": {
+        "shader_hash": "c423e656ea4d37b3",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135795
+      },
+      "2561a4bbf582d559": {
+        "shader_hash": "2561a4bbf582d559",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135797
+      },
+      "eda931d91bb47799": {
+        "shader_hash": "eda931d91bb47799",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135799
+      },
+      "bab1e7bfe8859340": {
+        "shader_hash": "bab1e7bfe8859340",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135804
+      },
+      "8d26db62e3013810": {
+        "shader_hash": "8d26db62e3013810",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135806
+      },
+      "341ec803b9f606c1": {
+        "shader_hash": "341ec803b9f606c1",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135808
+      },
+      "e99fa35f8e99878f": {
+        "shader_hash": "e99fa35f8e99878f",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135820
+      },
+      "661a1605ce6cbf17": {
+        "shader_hash": "661a1605ce6cbf17",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135823
+      },
+      "8d9b74530bbbba75": {
+        "shader_hash": "8d9b74530bbbba75",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135826
+      },
+      "c54e4dcfad79a495": {
+        "shader_hash": "c54e4dcfad79a495",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135830
+      },
+      "d2fe28f8b11ad98b": {
+        "shader_hash": "d2fe28f8b11ad98b",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135832
+      },
+      "38013d05c15198fa": {
+        "shader_hash": "38013d05c15198fa",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135835
+      },
+      "105afe668d290c64": {
+        "shader_hash": "105afe668d290c64",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135839
+      },
+      "8c36933a65606a30": {
+        "shader_hash": "8c36933a65606a30",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135843
+      },
+      "e3fbce850ddeb403": {
+        "shader_hash": "e3fbce850ddeb403",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135846
+      },
+      "68904f52c34778f4": {
+        "shader_hash": "68904f52c34778f4",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135849
+      },
+      "8a7bcb4dad601af6": {
+        "shader_hash": "8a7bcb4dad601af6",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135851
+      },
+      "e6366dccc482296a": {
+        "shader_hash": "e6366dccc482296a",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135853
+      },
+      "bed065d3c22eb50b": {
+        "shader_hash": "bed065d3c22eb50b",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135865
+      },
+      "6ad18c6c218c47d5": {
+        "shader_hash": "6ad18c6c218c47d5",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135869
+      },
+      "7562c7ae435109b6": {
+        "shader_hash": "7562c7ae435109b6",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135871
+      },
+      "5754ecb137ca2f5c": {
+        "shader_hash": "5754ecb137ca2f5c",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135875
+      },
+      "09bf70b5b817c1f8": {
+        "shader_hash": "09bf70b5b817c1f8",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135877
+      },
+      "80c3e8ba42d7067d": {
+        "shader_hash": "80c3e8ba42d7067d",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135880
+      },
+      "fbe4d2b6345dcc42": {
+        "shader_hash": "fbe4d2b6345dcc42",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135883
+      },
+      "19eea5703356a750": {
+        "shader_hash": "19eea5703356a750",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135886
+      },
+      "56e6454f38b82987": {
+        "shader_hash": "56e6454f38b82987",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135889
+      },
+      "da3a301db3fc85e1": {
+        "shader_hash": "da3a301db3fc85e1",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135893
+      },
+      "7daf39c8a53c806c": {
+        "shader_hash": "7daf39c8a53c806c",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135895
+      },
+      "da1f1b5c9cff7300": {
+        "shader_hash": "da1f1b5c9cff7300",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135898
+      },
+      "eca571360d20e07e": {
+        "shader_hash": "eca571360d20e07e",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135901
+      },
+      "89cf8f76dc423b01": {
+        "shader_hash": "89cf8f76dc423b01",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135904
+      },
+      "7f7dcfff0f5a74ff": {
+        "shader_hash": "7f7dcfff0f5a74ff",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135907
+      },
+      "a99e113bf78dc500": {
+        "shader_hash": "a99e113bf78dc500",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135911
+      },
+      "9f8c71bc34e36954": {
+        "shader_hash": "9f8c71bc34e36954",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135913
+      },
+      "7dd1586762bde4e4": {
+        "shader_hash": "7dd1586762bde4e4",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135916
+      },
+      "4ec8b6ba3ce644d8": {
+        "shader_hash": "4ec8b6ba3ce644d8",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135921
+      },
+      "86a2e951d5a779f8": {
+        "shader_hash": "86a2e951d5a779f8",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135923
+      },
+      "88d3686032f13a2a": {
+        "shader_hash": "88d3686032f13a2a",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135926
+      },
+      "f10d6372559d9e33": {
+        "shader_hash": "f10d6372559d9e33",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135930
+      },
+      "a38fd107e51cf916": {
+        "shader_hash": "a38fd107e51cf916",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135937
+      },
+      "71e1a9d51531c92f": {
+        "shader_hash": "71e1a9d51531c92f",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135965
+      },
+      "a9428bb5a1ae4dd2": {
+        "shader_hash": "a9428bb5a1ae4dd2",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 135993
+      },
+      "5f60f6b38d3841db": {
+        "shader_hash": "5f60f6b38d3841db",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136005
+      },
+      "626b4d95199d7ee6": {
+        "shader_hash": "626b4d95199d7ee6",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136012
+      },
+      "e8f5f005c86debe3": {
+        "shader_hash": "e8f5f005c86debe3",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136025
+      },
+      "0099bba06710b241": {
+        "shader_hash": "0099bba06710b241",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136028
+      },
+      "e35b66795124c0cc": {
+        "shader_hash": "e35b66795124c0cc",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136033
+      },
+      "6cc7755c206806e8": {
+        "shader_hash": "6cc7755c206806e8",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136035
+      },
+      "7976b708cf8eb864": {
+        "shader_hash": "7976b708cf8eb864",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136038
+      },
+      "77e12f8ac1d1bb72": {
+        "shader_hash": "77e12f8ac1d1bb72",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136041
+      },
+      "200cc27f8b7ffb4c": {
+        "shader_hash": "200cc27f8b7ffb4c",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136043
+      },
+      "5906dee2fb7d15a3": {
+        "shader_hash": "5906dee2fb7d15a3",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136046
+      },
+      "be348f31b27121f5": {
+        "shader_hash": "be348f31b27121f5",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136049
+      },
+      "528d5c203d16282d": {
+        "shader_hash": "528d5c203d16282d",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136052
+      },
+      "97eab5082ad59fb9": {
+        "shader_hash": "97eab5082ad59fb9",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136055
+      },
+      "601d591ba9155795": {
+        "shader_hash": "601d591ba9155795",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136058
+      },
+      "ad17f2356fc2966e": {
+        "shader_hash": "ad17f2356fc2966e",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136062
+      },
+      "d95d6dd11e2eeed4": {
+        "shader_hash": "d95d6dd11e2eeed4",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136064
+      },
+      "02df1e40366901f2": {
+        "shader_hash": "02df1e40366901f2",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136068
+      },
+      "7ddf6896e9de4065": {
+        "shader_hash": "7ddf6896e9de4065",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136070
+      },
+      "1ec22ae36c68e35d": {
+        "shader_hash": "1ec22ae36c68e35d",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136075
+      },
+      "be506d979a430fba": {
+        "shader_hash": "be506d979a430fba",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136077
+      },
+      "a17e5c2f37d1db88": {
+        "shader_hash": "a17e5c2f37d1db88",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136079
+      },
+      "fc3f872f420696ac": {
+        "shader_hash": "fc3f872f420696ac",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136084
+      },
+      "836fd9ebd0bb7d60": {
+        "shader_hash": "836fd9ebd0bb7d60",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136086
+      },
+      "0054471272dc25de": {
+        "shader_hash": "0054471272dc25de",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136088
+      },
+      "2b033fa0ffc46672": {
+        "shader_hash": "2b033fa0ffc46672",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136091
+      },
+      "bd6309fe86dac5d2": {
+        "shader_hash": "bd6309fe86dac5d2",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136094
+      },
+      "d686c333be0f09ea": {
+        "shader_hash": "d686c333be0f09ea",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136097
+      },
+      "ae7e6d3d8113e624": {
+        "shader_hash": "ae7e6d3d8113e624",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136101
+      },
+      "ab4e65888197ab33": {
+        "shader_hash": "ab4e65888197ab33",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136103
+      },
+      "2c36a14185576a34": {
+        "shader_hash": "2c36a14185576a34",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136107
+      },
+      "7ed9e70f7bd2c9fd": {
+        "shader_hash": "7ed9e70f7bd2c9fd",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136109
+      },
+      "85619056f68cafb4": {
+        "shader_hash": "85619056f68cafb4",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136112
+      },
+      "93214c17330f78b4": {
+        "shader_hash": "93214c17330f78b4",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136115
+      },
+      "931d1a6bb2963283": {
+        "shader_hash": "931d1a6bb2963283",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136119
+      },
+      "87d97c04be0d0dc8": {
+        "shader_hash": "87d97c04be0d0dc8",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136121
+      },
+      "37cb46e36bc20545": {
+        "shader_hash": "37cb46e36bc20545",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136124
+      },
+      "4b8e786d4d6c8c97": {
+        "shader_hash": "4b8e786d4d6c8c97",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136128
+      },
+      "aa2eff9ad8d77d5e": {
+        "shader_hash": "aa2eff9ad8d77d5e",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136130
+      },
+      "0f7d3068a337eac4": {
+        "shader_hash": "0f7d3068a337eac4",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136133
+      },
+      "acd0e1d82e54dd03": {
+        "shader_hash": "acd0e1d82e54dd03",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136145
+      },
+      "973d6fbf95bcff17": {
+        "shader_hash": "973d6fbf95bcff17",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136150
+      },
+      "ca0a7767b7dd0a55": {
+        "shader_hash": "ca0a7767b7dd0a55",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136152
+      },
+      "f64dccf603a2cbbd": {
+        "shader_hash": "f64dccf603a2cbbd",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136154
+      },
+      "4be0c496b3df9780": {
+        "shader_hash": "4be0c496b3df9780",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136160
+      },
+      "27b35e408fe03f4f": {
+        "shader_hash": "27b35e408fe03f4f",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136162
+      },
+      "f0af095dd8eef1dd": {
+        "shader_hash": "f0af095dd8eef1dd",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136163
+      },
+      "dfcd90ebe1742e69": {
+        "shader_hash": "dfcd90ebe1742e69",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136167
+      },
+      "39ad228e2226f4b6": {
+        "shader_hash": "39ad228e2226f4b6",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136170
+      },
+      "ac423c881acf2fd1": {
+        "shader_hash": "ac423c881acf2fd1",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136172
+      },
+      "2cc8e4bf460c3f45": {
+        "shader_hash": "2cc8e4bf460c3f45",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136175
+      },
+      "bb58234fe5346a2e": {
+        "shader_hash": "bb58234fe5346a2e",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136178
+      },
+      "b5c81fa1719482c6": {
+        "shader_hash": "b5c81fa1719482c6",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136183
+      },
+      "c175f981c096371f": {
+        "shader_hash": "c175f981c096371f",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136185
+      },
+      "4fedcd2cd62e53f6": {
+        "shader_hash": "4fedcd2cd62e53f6",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136188
+      },
+      "3c6e3aff4683af50": {
+        "shader_hash": "3c6e3aff4683af50",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136192
+      },
+      "aa8a31e9df8b1bc2": {
+        "shader_hash": "aa8a31e9df8b1bc2",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136194
+      },
+      "395c21cf5c11afc1": {
+        "shader_hash": "395c21cf5c11afc1",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136196
+      },
+      "66a63863688e0029": {
+        "shader_hash": "66a63863688e0029",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136200
+      },
+      "f3bc0f7241edb0a3": {
+        "shader_hash": "f3bc0f7241edb0a3",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136202
+      },
+      "9f2f402b9a325c6f": {
+        "shader_hash": "9f2f402b9a325c6f",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136206
+      },
+      "76e4fa76c77ea4e4": {
+        "shader_hash": "76e4fa76c77ea4e4",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136208
+      },
+      "699458ba57188c67": {
+        "shader_hash": "699458ba57188c67",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136212
+      },
+      "795b8d65eec931a2": {
+        "shader_hash": "795b8d65eec931a2",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136215
+      },
+      "c9de71163b92f887": {
+        "shader_hash": "c9de71163b92f887",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136217
+      },
+      "d115c2fc15849566": {
+        "shader_hash": "d115c2fc15849566",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136222
+      },
+      "1f3dc53d7bc181a3": {
+        "shader_hash": "1f3dc53d7bc181a3",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136224
+      },
+      "6012ed396fc38a82": {
+        "shader_hash": "6012ed396fc38a82",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136229
+      },
+      "0eb0c3acf78bf88d": {
+        "shader_hash": "0eb0c3acf78bf88d",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136231
+      },
+      "6851615c9afcd7f8": {
+        "shader_hash": "6851615c9afcd7f8",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136234
+      },
+      "79d2004d674c2cb7": {
+        "shader_hash": "79d2004d674c2cb7",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136238
+      },
+      "45bea0beeb40aa95": {
+        "shader_hash": "45bea0beeb40aa95",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136240
+      },
+      "a73a1fe6b351aa94": {
+        "shader_hash": "a73a1fe6b351aa94",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136244
+      },
+      "2678325b76d642b3": {
+        "shader_hash": "2678325b76d642b3",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136246
+      },
+      "5fc0b01c27e17312": {
+        "shader_hash": "5fc0b01c27e17312",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136249
+      },
+      "3807df86bd661097": {
+        "shader_hash": "3807df86bd661097",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136252
+      },
+      "be37ec10858b7873": {
+        "shader_hash": "be37ec10858b7873",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136256
+      },
+      "ccf14e832221fd9f": {
+        "shader_hash": "ccf14e832221fd9f",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136258
+      },
+      "8647b4df32089ba9": {
+        "shader_hash": "8647b4df32089ba9",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136261
+      },
+      "21fe1bbc3d6cb24c": {
+        "shader_hash": "21fe1bbc3d6cb24c",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136264
+      },
+      "caf655f05b8535fe": {
+        "shader_hash": "caf655f05b8535fe",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136267
+      },
+      "b7e74e69b3544f45": {
+        "shader_hash": "b7e74e69b3544f45",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136272
+      },
+      "ad1bd2c3cb520c33": {
+        "shader_hash": "ad1bd2c3cb520c33",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136274
+      },
+      "e1d4b547c3193736": {
+        "shader_hash": "e1d4b547c3193736",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136276
+      },
+      "0668c20c21d93a0d": {
+        "shader_hash": "0668c20c21d93a0d",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136279
+      },
+      "2c97699c98249672": {
+        "shader_hash": "2c97699c98249672",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136282
+      },
+      "f9f7adbf7887713a": {
+        "shader_hash": "f9f7adbf7887713a",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136286
+      },
+      "c6d25f5ce8e17038": {
+        "shader_hash": "c6d25f5ce8e17038",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136288
+      },
+      "ef8310116d248f17": {
+        "shader_hash": "ef8310116d248f17",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136291
+      },
+      "12319ae77d9d59a5": {
+        "shader_hash": "12319ae77d9d59a5",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136294
+      },
+      "8c87cfe53bca0394": {
+        "shader_hash": "8c87cfe53bca0394",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136326
+      },
+      "68f1fde708fdb78e": {
+        "shader_hash": "68f1fde708fdb78e",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136339
+      },
+      "70d4c7456132a1f8": {
+        "shader_hash": "70d4c7456132a1f8",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136362
+      },
+      "450179e61aae5f1f": {
+        "shader_hash": "450179e61aae5f1f",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136366
+      },
+      "a02d56297a35bc7f": {
+        "shader_hash": "a02d56297a35bc7f",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136368
+      },
+      "8eb53dde2f0ad260": {
+        "shader_hash": "8eb53dde2f0ad260",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136371
+      },
+      "41ac7fa4839530a1": {
+        "shader_hash": "41ac7fa4839530a1",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136374
+      },
+      "b4e34a73d88c67c5": {
+        "shader_hash": "b4e34a73d88c67c5",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136378
+      },
+      "70eab1277319e15a": {
+        "shader_hash": "70eab1277319e15a",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136380
+      },
+      "d0322fc167b4b31f": {
+        "shader_hash": "d0322fc167b4b31f",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136393
+      },
+      "97707fee9d94f300": {
+        "shader_hash": "97707fee9d94f300",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136395
+      },
+      "7e94bb23758d9f5d": {
+        "shader_hash": "7e94bb23758d9f5d",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136401
+      },
+      "cbbd87a2713099d5": {
+        "shader_hash": "cbbd87a2713099d5",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136404
+      },
+      "eb4fa5812cc474f8": {
+        "shader_hash": "eb4fa5812cc474f8",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136408
+      },
+      "9fa90480c208328e": {
+        "shader_hash": "9fa90480c208328e",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136418
+      },
+      "9dc380f47ef74ecd": {
+        "shader_hash": "9dc380f47ef74ecd",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136421
+      },
+      "f8b576fefcff067a": {
+        "shader_hash": "f8b576fefcff067a",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136425
+      },
+      "716dd774b672f159": {
+        "shader_hash": "716dd774b672f159",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136429
+      },
+      "4b2e35e144de77a9": {
+        "shader_hash": "4b2e35e144de77a9",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136431
+      },
+      "ffa370c09f977f42": {
+        "shader_hash": "ffa370c09f977f42",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136435
+      },
+      "fbec56e88f3b28cf": {
+        "shader_hash": "fbec56e88f3b28cf",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136441
+      },
+      "39f7d516fbcd6894": {
+        "shader_hash": "39f7d516fbcd6894",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136445
+      },
+      "22e3a41f726334c5": {
+        "shader_hash": "22e3a41f726334c5",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136453
+      },
+      "7aed3b3bfbfa2c41": {
+        "shader_hash": "7aed3b3bfbfa2c41",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136460
+      },
+      "55fcaa1ce79ed6b3": {
+        "shader_hash": "55fcaa1ce79ed6b3",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136462
+      },
+      "3d8bb5b29fba05f1": {
+        "shader_hash": "3d8bb5b29fba05f1",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136465
+      },
+      "12ea44ef93d753b5": {
+        "shader_hash": "12ea44ef93d753b5",
+        "status": "PLACEHOLDER",
+        "stage": "VS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136469
+      },
+      "46b9586d0a11a6c2": {
+        "shader_hash": "46b9586d0a11a6c2",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136471
+      },
+      "48ef2bd8473765a5": {
+        "shader_hash": "48ef2bd8473765a5",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136475
+      },
+      "0d3793277b62385e": {
+        "shader_hash": "0d3793277b62385e",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136477
+      },
+      "252e4c4de8f4340b": {
+        "shader_hash": "252e4c4de8f4340b",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136482
+      },
+      "2eae38cff8c23f4e": {
+        "shader_hash": "2eae38cff8c23f4e",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136484
+      },
+      "eeea4b71f3033d84": {
+        "shader_hash": "eeea4b71f3033d84",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136488
+      },
+      "ac0d0a44b3e7c2b0": {
+        "shader_hash": "ac0d0a44b3e7c2b0",
+        "status": "PLACEHOLDER",
+        "stage": "PS",
+        "reason": "no-usable-SM5-bytecode",
+        "occurrences": 1,
+        "first_line": 136491
+      }
+    }
+  },
+  "runtime_clues": {
+    "heartbeats": [],
+    "dispatch_clue_total": 37,
+    "dispatch_clues_retained": [
+      {
+        "line_no": 1690,
+        "text": "[16:34:38.808] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=26094ms last-api=CommandQueue::Signal(tid=916,ago=13063ms) exec=6 sig=17 wait=8 wctx=17(fail=0,max-spin=4987) swap=1 present=1 pso(G="
+      },
+      {
+        "line_no": 1722,
+        "text": "[16:34:40.808] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=28094ms last-api=Device::CreateShaderResourceView(tid=28092,ago=110ms) exec=7 sig=18 wait=9 wctx=18(fail=0,max-spin=4987) swap=1 pres"
+      },
+      {
+        "line_no": 3550,
+        "text": "[16:34:42.809] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=30094ms last-api=Device::CreateShaderResourceView(tid=28092,ago=250ms) exec=7 sig=18 wait=9 wctx=18(fail=0,max-spin=4987) swap=1 pres"
+      },
+      {
+        "line_no": 3551,
+        "text": "[16:34:44.809] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=32094ms last-api=Device::CreateShaderResourceView(tid=28092,ago=2250ms) exec=7 sig=18 wait=9 wctx=18(fail=0,max-spin=4987) swap=1 pre"
+      },
+      {
+        "line_no": 3606,
+        "text": "[16:34:46.809] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=34094ms last-api=Device::CreateShaderResourceView(tid=28092,ago=0ms) exec=7 sig=18 wait=9 wctx=18(fail=0,max-spin=4987) swap=1 presen"
+      },
+      {
+        "line_no": 3703,
+        "text": "[16:34:48.810] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=36094ms last-api=Device::CreateShaderResourceView(tid=28092,ago=47ms) exec=7 sig=18 wait=9 wctx=18(fail=0,max-spin=4987) swap=1 prese"
+      },
+      {
+        "line_no": 3837,
+        "text": "[16:34:50.810] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=38094ms last-api=Device::CreateGraphicsPipelineState(tid=22480,ago=63ms) exec=7 sig=18 wait=9 wctx=18(fail=0,max-spin=4987) swap=1 pr"
+      },
+      {
+        "line_no": 3868,
+        "text": "[16:34:52.810] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=40094ms last-api=Device::CreateShaderResourceView(tid=28092,ago=250ms) exec=7 sig=18 wait=9 wctx=18(fail=0,max-spin=4987) swap=1 pres"
+      },
+      {
+        "line_no": 3922,
+        "text": "[16:34:54.810] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=42094ms last-api=Device::CreateShaderResourceView(tid=28092,ago=297ms) exec=7 sig=18 wait=9 wctx=18(fail=0,max-spin=4987) swap=1 pres"
+      },
+      {
+        "line_no": 4060,
+        "text": "[16:34:56.855] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=44141ms last-api=Device::CreateShaderResourceView(tid=28092,ago=16ms) exec=7 sig=18 wait=9 wctx=18(fail=0,max-spin=4987) swap=1 prese"
+      },
+      {
+        "line_no": 8909,
+        "text": "[16:34:58.855] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=46141ms last-api=WaitForContext(tid=29288,ago=0ms) exec=332 sig=962 wait=447 wctx=962(fail=0,max-spin=4987) swap=1 present=57 pso(G=9"
+      },
+      {
+        "line_no": 17110,
+        "text": "[16:35:00.856] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=48141ms last-api=CommandQueue::ExecuteCommandLists(tid=916,ago=0ms) exec=932 sig=2676 wait=1250 wctx=2676(fail=0,max-spin=4987) swap="
+      },
+      {
+        "line_no": 35067,
+        "text": "[16:35:02.856] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=50141ms last-api=CommandQueue::Signal(tid=916,ago=16ms) exec=1217 sig=3512 wait=1635 wctx=3512(fail=0,max-spin=4987) swap=1 present=2"
+      },
+      {
+        "line_no": 42727,
+        "text": "[16:35:04.857] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=52141ms last-api=CommandQueue::Signal(tid=916,ago=16ms) exec=1750 sig=5074 wait=2354 wctx=5074(fail=0,max-spin=4987) swap=1 present=3"
+      },
+      {
+        "line_no": 51409,
+        "text": "[16:35:06.980] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=54141ms last-api=CommandQueue::Signal(tid=916,ago=47ms) exec=2364 sig=6825 wait=3174 wctx=6825(fail=0,max-spin=4987) swap=1 present=4"
+      },
+      {
+        "line_no": 60598,
+        "text": "[16:35:08.980] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=56266ms last-api=CommandQueue::Signal(tid=916,ago=16ms) exec=3022 sig=8711 wait=4056 wctx=8711(fail=0,max-spin=4987) swap=1 present=5"
+      },
+      {
+        "line_no": 70650,
+        "text": "[16:35:10.981] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=58266ms last-api=CommandQueue::Signal(tid=916,ago=0ms) exec=3760 sig=10802 wait=5040 wctx=10802(fail=0,max-spin=4987) swap=1 present="
+      },
+      {
+        "line_no": 80586,
+        "text": "[16:35:12.981] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=60266ms last-api=CommandQueue::Signal(tid=916,ago=0ms) exec=4480 sig=12858 wait=6004 wctx=12858(fail=0,max-spin=4987) swap=1 present="
+      },
+      {
+        "line_no": 90535,
+        "text": "[16:35:14.982] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=62266ms last-api=CommandQueue::Signal(tid=916,ago=16ms) exec=5205 sig=14920 wait=6971 wctx=14920(fail=0,max-spin=4987) swap=1 present"
+      },
+      {
+        "line_no": 99538,
+        "text": "[16:35:17.047] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=64328ms last-api=WaitForContext(tid=29288,ago=0ms) exec=5844 sig=16776 wait=7831 wctx=16776(fail=0,max-spin=4987) swap=1 present=993 "
+      },
+      {
+        "line_no": 108083,
+        "text": "[16:35:19.047] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=66328ms last-api=Device::CreateShaderResourceView(tid=28092,ago=62ms) exec=6383 sig=18331 wait=8555 wctx=18331(fail=0,max-spin=5487) "
+      },
+      {
+        "line_no": 117787,
+        "text": "[16:35:21.048] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=68328ms last-api=CommandQueue::Signal(tid=916,ago=0ms) exec=6975 sig=20045 wait=9351 wctx=20045(fail=0,max-spin=5487) swap=1 present="
+      },
+      {
+        "line_no": 130483,
+        "text": "[16:35:23.048] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=70328ms last-api=CommandQueue::Wait(tid=916,ago=0ms) exec=7647 sig=21971 wait=10252 wctx=21971(fail=0,max-spin=5997) swap=1 present=1"
+      },
+      {
+        "line_no": 142064,
+        "text": "[16:35:25.050] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=72328ms last-api=CommandQueue::Signal(tid=916,ago=0ms) exec=8249 sig=23717 wait=11061 wctx=23717(fail=0,max-spin=5997) swap=1 present"
+      },
+      {
+        "line_no": 151586,
+        "text": "[16:35:27.050] [tid=25336] [RENDER_TRACE] [HEARTBEAT] tid=25336 up=74328ms last-api=CommandQueue::Signal(tid=916,ago=0ms) exec=8945 sig=25700 wait=11991 wctx=25700(fail=0,max-spin=5997) swap=1 present"
+      }
+    ]
+  },
+  "bmp_verification": {
+    "source": {
+      "label": "source",
+      "path": "D:\\HelaReadback_Present1500_source.bmp",
+      "file_size_bytes": 2764854,
+      "expected_min_bytes": 2764854,
+      "width": 1280,
+      "height": 720,
+      "bits_per_pixel": 24,
+      "total_pixels": 921600,
+      "non_black_pixels": 0,
+      "first_non_black_xy": null,
+      "first_non_black_rgb": null
+    },
+    "backbuffer": {
+      "label": "backbuffer",
+      "path": "D:\\HelaReadback_Present1500_backbuffer.bmp",
+      "file_size_bytes": 2764854,
+      "expected_min_bytes": 2764854,
+      "width": 1280,
+      "height": 720,
+      "bits_per_pixel": 24,
+      "total_pixels": 921600,
+      "non_black_pixels": 0,
+      "first_non_black_xy": null,
+      "first_non_black_rgb": null
+    }
+  },
+  "verified_facts": [
+    "Direct pointer identity verified at Present #100: [READBACK_SRC] source=000001E1F601F478 matches Resource History key 000001E1F601F478 (operations=643, draws=643, skipped=0, clears=0).",
+    "Source RTV 000001E1F601F478 executed 643 draw call(s) (skipped=0, clears=0) with VS [20e0826b236597a1] and PS [44b0a992c2304254] at viewport [1280x720].",
+    "[READBACK_SRC] Present #100 (source=000001E1F601F478, 1280x720, fmt=24, seq=100): Non-black pixels=11/100 (11.0%), 5-point samples all_zero=False.",
+    "[READBACK] Backbuffer Present #100 (buffer=0, 1280x720, fmt=24): Non-black pixels=11/100 (11.0%), 5-point samples all_zero=False.",
+    "BMP 'source' (HelaReadback_Present1500_source.bmp): 0/921600 non-black pixels (1280x720, 24-bit).",
+    "BMP 'backbuffer' (HelaReadback_Present1500_backbuffer.bmp): 0/921600 non-black pixels (1280x720, 24-bit).",
+    "Target graphics shaders in RTV history logged SHADER READY: 20e0826b236597a1, 44b0a992c2304254.",
+    "256 unique shader(s) logged SHADER PLACEHOLDER: cab0b356d868415e (stage=PS, reason=no-usable-SM5-bytecode); 2474139ca9b08618 (stage=VS, reason=no-usable-SM5-bytecode); 0fed5fc1b03f262a (stage=PS, reason=no-usable-SM5-bytecode); e371acab558c9c2a (stage=VS, reason=no-usable-SM5-bytecode); e83c091eb64a73c9 (stage=PS, reason=no-usable-SM5-bytecode); d89290045711595e (stage=VS, reason=no-usable-SM5-bytecode); 5cf460bf9d3273eb (stage=VS, reason=no-usable-SM5-bytecode); 93c711754d14b4d8 (stage=PS, reason=no-usable-SM5-bytecode); f345a475bc830023 (stage=PS, reason=no-usable-SM5-bytecode); b056550988124b40 (stage=VS, reason=no-usable-SM5-bytecode); 08aba3106e361938 (stage=PS, reason=no-usable-SM5-bytecode); 783656852398fb72 (stage=VS, reason=no-usable-SM5-bytecode); a09383934f78936d (stage=PS, reason=no-usable-SM5-bytecode); 583eace0e1ff780b (stage=VS, reason=no-usable-SM5-bytecode); a2459a4a7ea332b5 (stage=PS, reason=no-usable-SM5-bytecode); e10ff0c206ae4d39 (stage=PS, reason=no-usable-SM5-bytecode); 6c7e1425d0035fea (stage=PS, reason=no-usable-SM5-bytecode); 9df7376973814321 (stage=PS, reason=no-usable-SM5-bytecode); b57b044125a5a51a (stage=PS, reason=no-usable-SM5-bytecode); 4c9481761bcd43f1 (stage=PS, reason=no-usable-SM5-bytecode); f1ac27cd22a07cec (stage=VS, reason=no-usable-SM5-bytecode); dff5b5be16400495 (stage=PS, reason=no-usable-SM5-bytecode); 587ababc6758faa8 (stage=VS, reason=no-usable-SM5-bytecode); efd840aa26a32759 (stage=PS, reason=no-usable-SM5-bytecode); dd817b7dcaef22f4 (stage=VS, reason=no-usable-SM5-bytecode); a14d41a98f72039b (stage=PS, reason=no-usable-SM5-bytecode); 00bf9068000bd684 (stage=PS, reason=no-usable-SM5-bytecode); 835bc5c2d5ba79ad (stage=VS, reason=no-usable-SM5-bytecode); 02fe63f14ad6dec2 (stage=PS, reason=no-usable-SM5-bytecode); 63fc0cb047aa3ddb (stage=VS, reason=no-usable-SM5-bytecode); 8f6799c2bf02c633 (stage=VS, reason=no-usable-SM5-bytecode); 4746981d63741ec4 (stage=VS, reason=no-usable-SM5-bytecode); cb5b1bbc038c9e0c (stage=PS, reason=no-usable-SM5-bytecode); a67ce9f96e4b9214 (stage=PS, reason=no-usable-SM5-bytecode); f7177e20954c0e3b (stage=VS, reason=no-usable-SM5-bytecode); e26bde91b74485cb (stage=PS, reason=no-usable-SM5-bytecode); edaf91e9e819edba (stage=PS, reason=no-usable-SM5-bytecode); c38d2c003f1f549a (stage=PS, reason=no-usable-SM5-bytecode); d9ddc461ea40b998 (stage=PS, reason=no-usable-SM5-bytecode); a28af1e86c856b5a (stage=PS, reason=no-usable-SM5-bytecode); 8e1360fb5cb93e02 (stage=PS, reason=no-usable-SM5-bytecode); ea2bc8873212076b (stage=PS, reason=no-usable-SM5-bytecode); c5ad2d793420b4d2 (stage=PS, reason=no-usable-SM5-bytecode); d7ad28427cf24c13 (stage=PS, reason=no-usable-SM5-bytecode); 6a71e12004f675e6 (stage=PS, reason=no-usable-SM5-bytecode); bec873b3215b927a (stage=PS, reason=no-usable-SM5-bytecode); c9c4a6762cc42c3c (stage=PS, reason=no-usable-SM5-bytecode); 9a2bab34b95d844d (stage=PS, reason=no-usable-SM5-bytecode); e32c33fdc7191f47 (stage=PS, reason=no-usable-SM5-bytecode); d864f8fde24a01f9 (stage=VS, reason=no-usable-SM5-bytecode); c1e16afd30100a82 (stage=PS, reason=no-usable-SM5-bytecode); 27004c2e1e62518f (stage=PS, reason=no-usable-SM5-bytecode); f99399db61586540 (stage=VS, reason=no-usable-SM5-bytecode); 29048ade891c9665 (stage=VS, reason=no-usable-SM5-bytecode); 0e2d0f724f72f61b (stage=VS, reason=no-usable-SM5-bytecode); 378f41719d9c68f4 (stage=VS, reason=no-usable-SM5-bytecode); 51ec7d393506c0ed (stage=VS, reason=no-usable-SM5-bytecode); 18bc6a29fc1a6e4f (stage=VS, reason=no-usable-SM5-bytecode); 0484d89acaef1630 (stage=PS, reason=no-usable-SM5-bytecode); 7e20239ede175b83 (stage=PS, reason=no-usable-SM5-bytecode); d59a1f942dd3c545 (stage=VS, reason=no-usable-SM5-bytecode); 3e3b4c378cfef607 (stage=PS, reason=no-usable-SM5-bytecode); a9c9747484e8052b (stage=VS, reason=no-usable-SM5-bytecode); 950fd966e2decb5f (stage=VS, reason=no-usable-SM5-bytecode); b69803068e452b21 (stage=VS, reason=no-usable-SM5-bytecode); 153d242ed47409d5 (stage=PS, reason=no-usable-SM5-bytecode); e1d071721ffa698d (stage=PS, reason=no-usable-SM5-bytecode); 27f4eb0dacd054bf (stage=PS, reason=no-usable-SM5-bytecode); 548c569323e5c254 (stage=VS, reason=no-usable-SM5-bytecode); 9ea0c0d8b507d549 (stage=PS, reason=no-usable-SM5-bytecode); 0f8b101f89447f45 (stage=PS, reason=no-usable-SM5-bytecode); 4ad0e69307b882b3 (stage=PS, reason=no-usable-SM5-bytecode); 25d5a54741fec315 (stage=PS, reason=no-usable-SM5-bytecode); db8631048fb1f633 (stage=PS, reason=no-usable-SM5-bytecode); 1ffaf9eb058be560 (stage=VS, reason=no-usable-SM5-bytecode); 93b42e525646cdbd (stage=PS, reason=no-usable-SM5-bytecode); 1155f40797035745 (stage=PS, reason=no-usable-SM5-bytecode); 2f97798cbd0998f6 (stage=VS, reason=no-usable-SM5-bytecode); f71686e8471131a0 (stage=PS, reason=no-usable-SM5-bytecode); 859e85b0b4aadd4b (stage=PS, reason=no-usable-SM5-bytecode); 7bdba92bad8476bd (stage=PS, reason=no-usable-SM5-bytecode); 7bc1763b7c99ee0e (stage=PS, reason=no-usable-SM5-bytecode); 5e54a24dfb6f62ba (stage=PS, reason=no-usable-SM5-bytecode); 3e8bfb6045c94af7 (stage=VS, reason=no-usable-SM5-bytecode); 873c36a02aa18588 (stage=PS, reason=no-usable-SM5-bytecode); 93b71e1cf83c3349 (stage=VS, reason=no-usable-SM5-bytecode); 97d33aaed44c9630 (stage=PS, reason=no-usable-SM5-bytecode); 7cedc9dea07f9499 (stage=VS, reason=no-usable-SM5-bytecode); b8360dc7fcca5a2a (stage=PS, reason=no-usable-SM5-bytecode); 987d533864454255 (stage=VS, reason=no-usable-SM5-bytecode); c423e656ea4d37b3 (stage=VS, reason=no-usable-SM5-bytecode); 2561a4bbf582d559 (stage=VS, reason=no-usable-SM5-bytecode); eda931d91bb47799 (stage=PS, reason=no-usable-SM5-bytecode); bab1e7bfe8859340 (stage=PS, reason=no-usable-SM5-bytecode); 8d26db62e3013810 (stage=PS, reason=no-usable-SM5-bytecode); 341ec803b9f606c1 (stage=VS, reason=no-usable-SM5-bytecode); e99fa35f8e99878f (stage=PS, reason=no-usable-SM5-bytecode); 661a1605ce6cbf17 (stage=VS, reason=no-usable-SM5-bytecode); 8d9b74530bbbba75 (stage=PS, reason=no-usable-SM5-bytecode); c54e4dcfad79a495 (stage=PS, reason=no-usable-SM5-bytecode); d2fe28f8b11ad98b (stage=VS, reason=no-usable-SM5-bytecode); 38013d05c15198fa (stage=PS, reason=no-usable-SM5-bytecode); 105afe668d290c64 (stage=VS, reason=no-usable-SM5-bytecode); 8c36933a65606a30 (stage=VS, reason=no-usable-SM5-bytecode); e3fbce850ddeb403 (stage=VS, reason=no-usable-SM5-bytecode); 68904f52c34778f4 (stage=PS, reason=no-usable-SM5-bytecode); 8a7bcb4dad601af6 (stage=PS, reason=no-usable-SM5-bytecode); e6366dccc482296a (stage=PS, reason=no-usable-SM5-bytecode); bed065d3c22eb50b (stage=VS, reason=no-usable-SM5-bytecode); 6ad18c6c218c47d5 (stage=PS, reason=no-usable-SM5-bytecode); 7562c7ae435109b6 (stage=PS, reason=no-usable-SM5-bytecode); 5754ecb137ca2f5c (stage=PS, reason=no-usable-SM5-bytecode); 09bf70b5b817c1f8 (stage=PS, reason=no-usable-SM5-bytecode); 80c3e8ba42d7067d (stage=PS, reason=no-usable-SM5-bytecode); fbe4d2b6345dcc42 (stage=PS, reason=no-usable-SM5-bytecode); 19eea5703356a750 (stage=PS, reason=no-usable-SM5-bytecode); 56e6454f38b82987 (stage=PS, reason=no-usable-SM5-bytecode); da3a301db3fc85e1 (stage=PS, reason=no-usable-SM5-bytecode); 7daf39c8a53c806c (stage=VS, reason=no-usable-SM5-bytecode); da1f1b5c9cff7300 (stage=PS, reason=no-usable-SM5-bytecode); eca571360d20e07e (stage=PS, reason=no-usable-SM5-bytecode); 89cf8f76dc423b01 (stage=VS, reason=no-usable-SM5-bytecode); 7f7dcfff0f5a74ff (stage=PS, reason=no-usable-SM5-bytecode); a99e113bf78dc500 (stage=PS, reason=no-usable-SM5-bytecode); 9f8c71bc34e36954 (stage=PS, reason=no-usable-SM5-bytecode); 7dd1586762bde4e4 (stage=VS, reason=no-usable-SM5-bytecode); 4ec8b6ba3ce644d8 (stage=PS, reason=no-usable-SM5-bytecode); 86a2e951d5a779f8 (stage=VS, reason=no-usable-SM5-bytecode); 88d3686032f13a2a (stage=VS, reason=no-usable-SM5-bytecode); f10d6372559d9e33 (stage=PS, reason=no-usable-SM5-bytecode); a38fd107e51cf916 (stage=PS, reason=no-usable-SM5-bytecode); 71e1a9d51531c92f (stage=PS, reason=no-usable-SM5-bytecode); a9428bb5a1ae4dd2 (stage=PS, reason=no-usable-SM5-bytecode); 5f60f6b38d3841db (stage=VS, reason=no-usable-SM5-bytecode); 626b4d95199d7ee6 (stage=PS, reason=no-usable-SM5-bytecode); e8f5f005c86debe3 (stage=PS, reason=no-usable-SM5-bytecode); 0099bba06710b241 (stage=VS, reason=no-usable-SM5-bytecode); e35b66795124c0cc (stage=VS, reason=no-usable-SM5-bytecode); 6cc7755c206806e8 (stage=PS, reason=no-usable-SM5-bytecode); 7976b708cf8eb864 (stage=VS, reason=no-usable-SM5-bytecode); 77e12f8ac1d1bb72 (stage=PS, reason=no-usable-SM5-bytecode); 200cc27f8b7ffb4c (stage=PS, reason=no-usable-SM5-bytecode); 5906dee2fb7d15a3 (stage=PS, reason=no-usable-SM5-bytecode); be348f31b27121f5 (stage=PS, reason=no-usable-SM5-bytecode); 528d5c203d16282d (stage=PS, reason=no-usable-SM5-bytecode); 97eab5082ad59fb9 (stage=PS, reason=no-usable-SM5-bytecode); 601d591ba9155795 (stage=PS, reason=no-usable-SM5-bytecode); ad17f2356fc2966e (stage=PS, reason=no-usable-SM5-bytecode); d95d6dd11e2eeed4 (stage=VS, reason=no-usable-SM5-bytecode); 02df1e40366901f2 (stage=PS, reason=no-usable-SM5-bytecode); 7ddf6896e9de4065 (stage=VS, reason=no-usable-SM5-bytecode); 1ec22ae36c68e35d (stage=VS, reason=no-usable-SM5-bytecode); be506d979a430fba (stage=VS, reason=no-usable-SM5-bytecode); a17e5c2f37d1db88 (stage=PS, reason=no-usable-SM5-bytecode); fc3f872f420696ac (stage=PS, reason=no-usable-SM5-bytecode); 836fd9ebd0bb7d60 (stage=PS, reason=no-usable-SM5-bytecode); 0054471272dc25de (stage=VS, reason=no-usable-SM5-bytecode); 2b033fa0ffc46672 (stage=PS, reason=no-usable-SM5-bytecode); bd6309fe86dac5d2 (stage=VS, reason=no-usable-SM5-bytecode); d686c333be0f09ea (stage=PS, reason=no-usable-SM5-bytecode); ae7e6d3d8113e624 (stage=PS, reason=no-usable-SM5-bytecode); ab4e65888197ab33 (stage=VS, reason=no-usable-SM5-bytecode); 2c36a14185576a34 (stage=PS, reason=no-usable-SM5-bytecode); 7ed9e70f7bd2c9fd (stage=PS, reason=no-usable-SM5-bytecode); 85619056f68cafb4 (stage=PS, reason=no-usable-SM5-bytecode); 93214c17330f78b4 (stage=PS, reason=no-usable-SM5-bytecode); 931d1a6bb2963283 (stage=PS, reason=no-usable-SM5-bytecode); 87d97c04be0d0dc8 (stage=PS, reason=no-usable-SM5-bytecode); 37cb46e36bc20545 (stage=PS, reason=no-usable-SM5-bytecode); 4b8e786d4d6c8c97 (stage=PS, reason=no-usable-SM5-bytecode); aa2eff9ad8d77d5e (stage=PS, reason=no-usable-SM5-bytecode); 0f7d3068a337eac4 (stage=PS, reason=no-usable-SM5-bytecode); acd0e1d82e54dd03 (stage=PS, reason=no-usable-SM5-bytecode); 973d6fbf95bcff17 (stage=VS, reason=no-usable-SM5-bytecode); ca0a7767b7dd0a55 (stage=VS, reason=no-usable-SM5-bytecode); f64dccf603a2cbbd (stage=VS, reason=no-usable-SM5-bytecode); 4be0c496b3df9780 (stage=PS, reason=no-usable-SM5-bytecode); 27b35e408fe03f4f (stage=PS, reason=no-usable-SM5-bytecode); f0af095dd8eef1dd (stage=PS, reason=no-usable-SM5-bytecode); dfcd90ebe1742e69 (stage=VS, reason=no-usable-SM5-bytecode); 39ad228e2226f4b6 (stage=PS, reason=no-usable-SM5-bytecode); ac423c881acf2fd1 (stage=PS, reason=no-usable-SM5-bytecode); 2cc8e4bf460c3f45 (stage=VS, reason=no-usable-SM5-bytecode); bb58234fe5346a2e (stage=PS, reason=no-usable-SM5-bytecode); b5c81fa1719482c6 (stage=VS, reason=no-usable-SM5-bytecode); c175f981c096371f (stage=VS, reason=no-usable-SM5-bytecode); 4fedcd2cd62e53f6 (stage=VS, reason=no-usable-SM5-bytecode); 3c6e3aff4683af50 (stage=PS, reason=no-usable-SM5-bytecode); aa8a31e9df8b1bc2 (stage=PS, reason=no-usable-SM5-bytecode); 395c21cf5c11afc1 (stage=PS, reason=no-usable-SM5-bytecode); 66a63863688e0029 (stage=VS, reason=no-usable-SM5-bytecode); f3bc0f7241edb0a3 (stage=VS, reason=no-usable-SM5-bytecode); 9f2f402b9a325c6f (stage=PS, reason=no-usable-SM5-bytecode); 76e4fa76c77ea4e4 (stage=PS, reason=no-usable-SM5-bytecode); 699458ba57188c67 (stage=VS, reason=no-usable-SM5-bytecode); 795b8d65eec931a2 (stage=PS, reason=no-usable-SM5-bytecode); c9de71163b92f887 (stage=PS, reason=no-usable-SM5-bytecode); d115c2fc15849566 (stage=VS, reason=no-usable-SM5-bytecode); 1f3dc53d7bc181a3 (stage=VS, reason=no-usable-SM5-bytecode); 6012ed396fc38a82 (stage=PS, reason=no-usable-SM5-bytecode); 0eb0c3acf78bf88d (stage=PS, reason=no-usable-SM5-bytecode); 6851615c9afcd7f8 (stage=VS, reason=no-usable-SM5-bytecode); 79d2004d674c2cb7 (stage=VS, reason=no-usable-SM5-bytecode); 45bea0beeb40aa95 (stage=PS, reason=no-usable-SM5-bytecode); a73a1fe6b351aa94 (stage=PS, reason=no-usable-SM5-bytecode); 2678325b76d642b3 (stage=PS, reason=no-usable-SM5-bytecode); 5fc0b01c27e17312 (stage=PS, reason=no-usable-SM5-bytecode); 3807df86bd661097 (stage=PS, reason=no-usable-SM5-bytecode); be37ec10858b7873 (stage=PS, reason=no-usable-SM5-bytecode); ccf14e832221fd9f (stage=PS, reason=no-usable-SM5-bytecode); 8647b4df32089ba9 (stage=PS, reason=no-usable-SM5-bytecode); 21fe1bbc3d6cb24c (stage=PS, reason=no-usable-SM5-bytecode); caf655f05b8535fe (stage=VS, reason=no-usable-SM5-bytecode); b7e74e69b3544f45 (stage=VS, reason=no-usable-SM5-bytecode); ad1bd2c3cb520c33 (stage=VS, reason=no-usable-SM5-bytecode); e1d4b547c3193736 (stage=VS, reason=no-usable-SM5-bytecode); 0668c20c21d93a0d (stage=VS, reason=no-usable-SM5-bytecode); 2c97699c98249672 (stage=PS, reason=no-usable-SM5-bytecode); f9f7adbf7887713a (stage=PS, reason=no-usable-SM5-bytecode); c6d25f5ce8e17038 (stage=VS, reason=no-usable-SM5-bytecode); ef8310116d248f17 (stage=PS, reason=no-usable-SM5-bytecode); 12319ae77d9d59a5 (stage=PS, reason=no-usable-SM5-bytecode); 8c87cfe53bca0394 (stage=PS, reason=no-usable-SM5-bytecode); 68f1fde708fdb78e (stage=PS, reason=no-usable-SM5-bytecode); 70d4c7456132a1f8 (stage=PS, reason=no-usable-SM5-bytecode); 450179e61aae5f1f (stage=PS, reason=no-usable-SM5-bytecode); a02d56297a35bc7f (stage=PS, reason=no-usable-SM5-bytecode); 8eb53dde2f0ad260 (stage=PS, reason=no-usable-SM5-bytecode); 41ac7fa4839530a1 (stage=PS, reason=no-usable-SM5-bytecode); b4e34a73d88c67c5 (stage=PS, reason=no-usable-SM5-bytecode); 70eab1277319e15a (stage=PS, reason=no-usable-SM5-bytecode); d0322fc167b4b31f (stage=PS, reason=no-usable-SM5-bytecode); 97707fee9d94f300 (stage=PS, reason=no-usable-SM5-bytecode); 7e94bb23758d9f5d (stage=VS, reason=no-usable-SM5-bytecode); cbbd87a2713099d5 (stage=PS, reason=no-usable-SM5-bytecode); eb4fa5812cc474f8 (stage=VS, reason=no-usable-SM5-bytecode); 9fa90480c208328e (stage=VS, reason=no-usable-SM5-bytecode); 9dc380f47ef74ecd (stage=VS, reason=no-usable-SM5-bytecode); f8b576fefcff067a (stage=PS, reason=no-usable-SM5-bytecode); 716dd774b672f159 (stage=PS, reason=no-usable-SM5-bytecode); 4b2e35e144de77a9 (stage=PS, reason=no-usable-SM5-bytecode); ffa370c09f977f42 (stage=VS, reason=no-usable-SM5-bytecode); fbec56e88f3b28cf (stage=VS, reason=no-usable-SM5-bytecode); 39f7d516fbcd6894 (stage=PS, reason=no-usable-SM5-bytecode); 22e3a41f726334c5 (stage=VS, reason=no-usable-SM5-bytecode); 7aed3b3bfbfa2c41 (stage=VS, reason=no-usable-SM5-bytecode); 55fcaa1ce79ed6b3 (stage=VS, reason=no-usable-SM5-bytecode); 3d8bb5b29fba05f1 (stage=VS, reason=no-usable-SM5-bytecode); 12ea44ef93d753b5 (stage=VS, reason=no-usable-SM5-bytecode); 46b9586d0a11a6c2 (stage=PS, reason=no-usable-SM5-bytecode); 48ef2bd8473765a5 (stage=PS, reason=no-usable-SM5-bytecode); 0d3793277b62385e (stage=PS, reason=no-usable-SM5-bytecode); 252e4c4de8f4340b (stage=PS, reason=no-usable-SM5-bytecode); 2eae38cff8c23f4e (stage=PS, reason=no-usable-SM5-bytecode); eeea4b71f3033d84 (stage=PS, reason=no-usable-SM5-bytecode); ac0d0a44b3e7c2b0 (stage=PS, reason=no-usable-SM5-bytecode)."
+  ],
+  "hypotheses_and_open_questions": [
+    "BOUNDARY (Compute placeholders [cab0b356d868415e, 2474139ca9b08618, 0fed5fc1b03f262a, e371acab558c9c2a, e83c091eb64a73c9, d89290045711595e, 5cf460bf9d3273eb, 93c711754d14b4d8, f345a475bc830023, b056550988124b40, 08aba3106e361938, 783656852398fb72, a09383934f78936d, 583eace0e1ff780b, a2459a4a7ea332b5, e10ff0c206ae4d39, 6c7e1425d0035fea, 9df7376973814321, b57b044125a5a51a, 4c9481761bcd43f1, f1ac27cd22a07cec, dff5b5be16400495, 587ababc6758faa8, efd840aa26a32759, dd817b7dcaef22f4, a14d41a98f72039b, 00bf9068000bd684, 835bc5c2d5ba79ad, 02fe63f14ad6dec2, 63fc0cb047aa3ddb, 8f6799c2bf02c633, 4746981d63741ec4, cb5b1bbc038c9e0c, a67ce9f96e4b9214, f7177e20954c0e3b, e26bde91b74485cb, edaf91e9e819edba, c38d2c003f1f549a, d9ddc461ea40b998, a28af1e86c856b5a, 8e1360fb5cb93e02, ea2bc8873212076b, c5ad2d793420b4d2, d7ad28427cf24c13, 6a71e12004f675e6, bec873b3215b927a, c9c4a6762cc42c3c, 9a2bab34b95d844d, e32c33fdc7191f47, d864f8fde24a01f9, c1e16afd30100a82, 27004c2e1e62518f, f99399db61586540, 29048ade891c9665, 0e2d0f724f72f61b, 378f41719d9c68f4, 51ec7d393506c0ed, 18bc6a29fc1a6e4f, 0484d89acaef1630, 7e20239ede175b83, d59a1f942dd3c545, 3e3b4c378cfef607, a9c9747484e8052b, 950fd966e2decb5f, b69803068e452b21, 153d242ed47409d5, e1d071721ffa698d, 27f4eb0dacd054bf, 548c569323e5c254, 9ea0c0d8b507d549, 0f8b101f89447f45, 4ad0e69307b882b3, 25d5a54741fec315, db8631048fb1f633, 1ffaf9eb058be560, 93b42e525646cdbd, 1155f40797035745, 2f97798cbd0998f6, f71686e8471131a0, 859e85b0b4aadd4b, 7bdba92bad8476bd, 7bc1763b7c99ee0e, 5e54a24dfb6f62ba, 3e8bfb6045c94af7, 873c36a02aa18588, 93b71e1cf83c3349, 97d33aaed44c9630, 7cedc9dea07f9499, b8360dc7fcca5a2a, 987d533864454255, c423e656ea4d37b3, 2561a4bbf582d559, eda931d91bb47799, bab1e7bfe8859340, 8d26db62e3013810, 341ec803b9f606c1, e99fa35f8e99878f, 661a1605ce6cbf17, 8d9b74530bbbba75, c54e4dcfad79a495, d2fe28f8b11ad98b, 38013d05c15198fa, 105afe668d290c64, 8c36933a65606a30, e3fbce850ddeb403, 68904f52c34778f4, 8a7bcb4dad601af6, e6366dccc482296a, bed065d3c22eb50b, 6ad18c6c218c47d5, 7562c7ae435109b6, 5754ecb137ca2f5c, 09bf70b5b817c1f8, 80c3e8ba42d7067d, fbe4d2b6345dcc42, 19eea5703356a750, 56e6454f38b82987, da3a301db3fc85e1, 7daf39c8a53c806c, da1f1b5c9cff7300, eca571360d20e07e, 89cf8f76dc423b01, 7f7dcfff0f5a74ff, a99e113bf78dc500, 9f8c71bc34e36954, 7dd1586762bde4e4, 4ec8b6ba3ce644d8, 86a2e951d5a779f8, 88d3686032f13a2a, f10d6372559d9e33, a38fd107e51cf916, 71e1a9d51531c92f, a9428bb5a1ae4dd2, 5f60f6b38d3841db, 626b4d95199d7ee6, e8f5f005c86debe3, 0099bba06710b241, e35b66795124c0cc, 6cc7755c206806e8, 7976b708cf8eb864, 77e12f8ac1d1bb72, 200cc27f8b7ffb4c, 5906dee2fb7d15a3, be348f31b27121f5, 528d5c203d16282d, 97eab5082ad59fb9, 601d591ba9155795, ad17f2356fc2966e, d95d6dd11e2eeed4, 02df1e40366901f2, 7ddf6896e9de4065, 1ec22ae36c68e35d, be506d979a430fba, a17e5c2f37d1db88, fc3f872f420696ac, 836fd9ebd0bb7d60, 0054471272dc25de, 2b033fa0ffc46672, bd6309fe86dac5d2, d686c333be0f09ea, ae7e6d3d8113e624, ab4e65888197ab33, 2c36a14185576a34, 7ed9e70f7bd2c9fd, 85619056f68cafb4, 93214c17330f78b4, 931d1a6bb2963283, 87d97c04be0d0dc8, 37cb46e36bc20545, 4b8e786d4d6c8c97, aa2eff9ad8d77d5e, 0f7d3068a337eac4, acd0e1d82e54dd03, 973d6fbf95bcff17, ca0a7767b7dd0a55, f64dccf603a2cbbd, 4be0c496b3df9780, 27b35e408fe03f4f, f0af095dd8eef1dd, dfcd90ebe1742e69, 39ad228e2226f4b6, ac423c881acf2fd1, 2cc8e4bf460c3f45, bb58234fe5346a2e, b5c81fa1719482c6, c175f981c096371f, 4fedcd2cd62e53f6, 3c6e3aff4683af50, aa8a31e9df8b1bc2, 395c21cf5c11afc1, 66a63863688e0029, f3bc0f7241edb0a3, 9f2f402b9a325c6f, 76e4fa76c77ea4e4, 699458ba57188c67, 795b8d65eec931a2, c9de71163b92f887, d115c2fc15849566, 1f3dc53d7bc181a3, 6012ed396fc38a82, 0eb0c3acf78bf88d, 6851615c9afcd7f8, 79d2004d674c2cb7, 45bea0beeb40aa95, a73a1fe6b351aa94, 2678325b76d642b3, 5fc0b01c27e17312, 3807df86bd661097, be37ec10858b7873, ccf14e832221fd9f, 8647b4df32089ba9, 21fe1bbc3d6cb24c, caf655f05b8535fe, b7e74e69b3544f45, ad1bd2c3cb520c33, e1d4b547c3193736, 0668c20c21d93a0d, 2c97699c98249672, f9f7adbf7887713a, c6d25f5ce8e17038, ef8310116d248f17, 12319ae77d9d59a5, 8c87cfe53bca0394, 68f1fde708fdb78e, 70d4c7456132a1f8, 450179e61aae5f1f, a02d56297a35bc7f, 8eb53dde2f0ad260, 41ac7fa4839530a1, b4e34a73d88c67c5, 70eab1277319e15a, d0322fc167b4b31f, 97707fee9d94f300, 7e94bb23758d9f5d, cbbd87a2713099d5, eb4fa5812cc474f8, 9fa90480c208328e, 9dc380f47ef74ecd, f8b576fefcff067a, 716dd774b672f159, 4b2e35e144de77a9, ffa370c09f977f42, fbec56e88f3b28cf, 39f7d516fbcd6894, 22e3a41f726334c5, 7aed3b3bfbfa2c41, 55fcaa1ce79ed6b3, 3d8bb5b29fba05f1, 12ea44ef93d753b5, 46b9586d0a11a6c2, 48ef2bd8473765a5, 0d3793277b62385e, 252e4c4de8f4340b, 2eae38cff8c23f4e, eeea4b71f3033d84, ac0d0a44b3e7c2b0]): SHADER PLACEHOLDER proves missing usable SM5 bytecode for those hashes, but does NOT by itself prove whether their Dispatch calls were skipped at runtime or whether their outputs feed the Present #100 source RTV draws."
+  ]
+}
